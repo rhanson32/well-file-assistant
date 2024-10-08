@@ -35,7 +35,7 @@ Deploy this app using AWS Amplify.
     1. Anthropic - Claude 3 Sonnet
 1. To restrict email address domains which are able to sign up in the app, follow these steps:
     1. Give the Amplify build environment permisson to update the cognito user pool
-        1. On the App's Amplify page, navigate to "App settings -> Genral Settings" and look for the Service Role arn.
+        1. On the App's Amplify page, navigate to "App settings -> General Settings" and look for the Service Role arn.
         1. Navigate to the AWS IAM page in the AWS Console.
         1. Search for the AWS Amplify Service Role name (It's part of the arn).
         1. Add a role policy with the follwing statement. You can find the arn of your user pool by searching for "UserPool" in the "Deployed backend resources" section of the Amplify branch deployments, and clicking on the link to the user pool.
